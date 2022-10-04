@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import images from './assets/images.jpeg'
+import save from './assets/save.jpg'
+import Hero from './components/Hero';
+import Slider from './components/Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello</h1>
+      <Hero imageSrc={save}/> 
+      <Slider imgSrc=
+      {images} 
+      title={'My Name is Jack kinyanjui'} 
+      subtitle={'Am a web Developer'}
+      />
+      <Slider imgSrc={images} title={'hello'} subtitle={'come'} flipped={true}/>
+      
+
     </div>
   );
 }
