@@ -1,6 +1,7 @@
 import './App.css';
 import images from './assets/images.jpeg'
 import save from './assets/save.jpg'
+import me from './assets/me.png'
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar navbarLinks={navbarLinks}/>
-      <Hero imageSrc={save}/> 
+      <Hero imageSrc={me}/> 
       <Slider imgSrc=
       {images} 
       title={'My Name is Jack kinyanjui'} 
