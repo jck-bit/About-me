@@ -17,10 +17,9 @@ const Slider = ({imgSrc, title, subtitle,flipped}) => {
                 <h1 className='slider_title'>{title}</h1>
                 <p>{subtitle}</p>
                 <p></p>
-                
             </div>
           </>
-        }else{
+        } if(flipped) {
             return <>
             <div className='slider_content'>
                 <h1 className='slider_title'>{title}</h1>
@@ -65,12 +64,17 @@ const Slider = ({imgSrc, title, subtitle,flipped}) => {
               })}
             </div>
             </>
-        }
+        } 
     }
+
+
   return (
-    <div className={ inView ? "slider slider--zoom" : "slider" } ref={ref}>
+    <>
+       <div className={ inView ? "slider slider--zoom" : "slider" } ref={ref}>
         {renderContent()}
     </div>
+    </>
+
   )
 }
 

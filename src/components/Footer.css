@@ -1,0 +1,44 @@
+.education__container{
+    align-items: center;
+    opacity: 0;
+    transform: scale(85%);
+    transition: 1s;
+    
+}
+
+.education__container--zoom{
+    opacity: 1;
+    transform: scale(100%);
+    transition: 1s; 
+    
+    
+}
+
+.education__container h1, h2, h3{
+    font-size: larger;
+
+    
+}
+
+p{
+    color: rgb(36, 134, 36);
+    font-size: 16px;
+}
+
+.contacts_float_right{
+    position: absolute;
+    right: 4px;
+    bottom: 3px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer_img{
+    width: 40px;
+    margin: 5px;
+    
+}

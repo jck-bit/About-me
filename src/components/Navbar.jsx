@@ -10,7 +10,7 @@ import {FiX ,FiMenu} from 'react-icons/fi'
 const Navbar = ({navbarLinks}) => {
   return (
     <nav className='navbar'>
-      <span className='navbar__logo'>About Me</span>
+      <span className='navbar__logo'> Hello world !</span>
         <ul className='navbar__list'>
           {navbarLinks.map(item =>{
             return(

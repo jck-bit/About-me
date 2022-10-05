@@ -1,11 +1,12 @@
 import './App.css';
 import images from './assets/images.jpeg'
 import save from './assets/save.jpg'
-import react from './assets/react_logo.png'
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import {navbarLinks} from './components/Navbar'
+import Footer from './components/Footer';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
       <Slider imgSrc=
       {images} 
       title={'My Name is Jack kinyanjui'} 
-      subtitle={'Am a web Developer'}
+      subtitle={'Am a Junior Developer'}
       />
       <Slider title={'My Tecnologies and Skills'}  flipped={true}/>
-  
+      <Footer sided={true}/>
     </div>
   );
 }

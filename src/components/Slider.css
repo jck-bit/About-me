@@ -6,13 +6,13 @@
 
     opacity: 0;
     transform: scale(85%);
-    transition: 2s;
+    transition: 1s;
 }
 
 .slider--zoom{
    opacity: 1;
    transform: scale(100%);
-   transition: 2s; 
+   transition: 1s; 
 }
 
 .slider_img{
@@ -37,6 +37,8 @@
     display: grid;
     grid-template-columns: 50px 1fr 2fr;
     column-gap: 20px;
+    padding-left: 15px;
+    border-left: 3px solid green;
 }
 
 .span_img{
