@@ -3,9 +3,7 @@ import './Navbar.css'
 import {FiX ,FiMenu} from 'react-icons/fi'
 
  export const navbarLinks = [
-    {url: "#", title:"Achievements"},
-    {url: "#", title:"Hello"},
-    {url: "#", title:"Hello"}
+
 ]
 const Navbar = ({navbarLinks}) => {
   return (

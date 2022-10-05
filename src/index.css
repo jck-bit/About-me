@@ -1,12 +1,9 @@
-
-
 body {
   margin: 0;
   font-family: 'Noto Sans Mono', monospace;
     width: 80%;
     margin-left: 10%;
     margin-top: 5px;
-    border: 1px solid;
     padding: 20px;
 }
 

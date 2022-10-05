@@ -59,6 +59,9 @@ const Slider = ({imgSrc, title, subtitle,flipped}) => {
                  <span>
                    <img src={picture.sql_logo} alt="" className='span_img' />
                  </span>
+                 <span>
+                   <img src={picture.nodejs_logo} alt="" className='span_img' />
+                 </span>
                   </>
                 )
               })}

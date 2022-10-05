@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import {navbarLinks} from './components/Navbar'
 import Footer from './components/Footer';
-import Contacts from './components/Contacts';
+
 
 function App() {
   return (

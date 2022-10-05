@@ -23,7 +23,7 @@ const Footer = () => {
       </p>
 
       <div className="contacts_float_right">
-        <h1>My contacts</h1>
+        <h2>Contacts</h2>
         {pictures.map((picture) =>{
           return(
             <ul>

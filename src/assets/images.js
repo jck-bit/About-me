@@ -12,6 +12,7 @@ import wakatime_logo from './wakatime.png'
 import twitter_logo from './twitter.png'
 import linkedin_logo from './linkedin.png'
 import github_logo  from './github.png'
+import nodejs_logo from './nodejs.png'
 
 
 export const pictures = [
@@ -29,7 +30,8 @@ export const pictures = [
         wakatime_logo:wakatime_logo,
         twitter_logo:twitter_logo,
         linkedin_logo:linkedin_logo,
-        github_logo:github_logo
+        github_logo:github_logo,
+        nodejs_logo:nodejs_logo
 
     }
 ]
