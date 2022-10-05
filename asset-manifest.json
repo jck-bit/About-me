@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jck-bit/About-me/static/css/main.841eed1b.css",
+    "main.js": "/jck-bit/About-me/static/js/main.f26f5734.js",
+    "static/media/save.jpg": "/jck-bit/About-me/static/media/save.26d05696685ec0f9bd7e.jpg",
+    "static/media/sass.png": "/jck-bit/About-me/static/media/sass.7cdbf6b5889c42b3e490.png",
+    "static/media/nodejs.png": "/jck-bit/About-me/static/media/nodejs.c2e22c634a7336cbe298.png",
+    "static/media/react_logo.png": "/jck-bit/About-me/static/media/react_logo.efccb116e443bbf6ffa6.png",
+    "static/media/git-logo.png": "/jck-bit/About-me/static/media/git-logo.95e92c065c8ce5f9147a.png",
+    "static/media/sql.jpg": "/jck-bit/About-me/static/media/sql.e7f2a4c60d4052c19ddb.jpg",
+    "static/media/postman.png": "/jck-bit/About-me/static/media/postman.3ac4d7844e6d9a8023da.png",
+    "index.html": "/jck-bit/About-me/index.html",
+    "main.841eed1b.css.map": "/jck-bit/About-me/static/css/main.841eed1b.css.map",
+    "main.f26f5734.js.map": "/jck-bit/About-me/static/js/main.f26f5734.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.841eed1b.css",
+    "static/js/main.f26f5734.js"
+  ]
+}
