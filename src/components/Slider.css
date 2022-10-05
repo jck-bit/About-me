@@ -16,7 +16,8 @@
 }
 
 .slider_img{
-    width: 60%;
+    width: 30%;
+    border-radius: 5px;
 }
 
 .slider_content{
@@ -32,3 +33,13 @@
     text-align: center;
 }
 
+.my__tecnologies{
+    display: grid;
+    grid-template-columns: 50px 1fr 2fr;
+    column-gap: 20px;
+}
+
+.span_img{
+    width: 60px;
+    padding: 5px;
+}
