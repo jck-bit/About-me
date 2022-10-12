@@ -3,8 +3,8 @@
     opacity: 0;
     transform: scale(85%);
     transition: 1s;
-    
 }
+
 
 .education__container--zoom{
     opacity: 1;
@@ -12,9 +12,16 @@
     transition: 1s; 
 }
 
+@media screen and (max-width: 500px) {
+    .education__container--zoom{
+        display: flex;
+        flex-direction: column;      
+    }
+}
 .education__container h1, h2, h3{
     font-size: larger;
 }
+
 
 p{
     color: rgb(36, 134, 36);
@@ -31,11 +38,13 @@ p{
     color: rgb(36, 134, 36);
 }
 
+
 ul{
     list-style: none;
     display: flex;
     align-items: center;
 }
+
 
 .footer_img{
     width: 22px;
