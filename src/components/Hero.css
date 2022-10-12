@@ -13,6 +13,15 @@
     position: absolute;
 }
 
+@media screen and (max-width: 400px) {
+    .hero_img{
+        width: 100%;
+        position: relative;
+        object-fit: cover;
+      
+    }
+}
+
 .hero_title{
     position: absolute;
     bottom: 15%;
