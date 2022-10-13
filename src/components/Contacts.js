@@ -1,21 +1,21 @@
 import { useInView } from 'react-intersection-observer';
 import { pictures } from '../assets/images'
+import './Contacts.css'
 
 const Contacts = () => {
     const { ref, inView } = useInView({
-
-        /* Optional options */
     
         threshold: 0.4,
       });
   return (
-    <div className="contacts_float_right">
+
+    <div className={inView? "contacts_float_right--zoom": "contacts_float_right"} ref={ref}>
     <h2>Contacts</h2>
     {pictures.map((picture) =>{
       return(
         <ul>
           <li>
-            <a href="https://wakatime.com/@spinach">
+            <a href="https://wakatime.com/@Kinyanjui_jack">
               <img src={picture.wakatime_logo} alt="" className='footer_img'/>
             </a>
           </li>
