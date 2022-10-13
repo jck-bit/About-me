@@ -28,29 +28,3 @@ p{
     font-size: 16px;
 }
 
-.contacts_float_right{
-    border-bottom: 1px solid rgb(159, 151, 151);
-    margin-top: 50px;
-    right: 4px;
-    bottom: 3px;
-}
-
-
-
-.contacts_float_right h2{
-    color:black;
-}
-
-
-ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-
-.footer_img{
-    width: 22px;
-    margin: 5px;
-    
-}
