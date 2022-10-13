@@ -29,13 +29,16 @@ p{
 }
 
 .contacts_float_right{
-    position: absolute;
+    border-bottom: 1px solid rgb(159, 151, 151);
+    margin-top: 50px;
     right: 4px;
     bottom: 3px;
 }
 
+
+
 .contacts_float_right h2{
-    color: rgb(36, 134, 36);
+    color:black;
 }
 
 
