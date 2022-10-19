@@ -8,7 +8,6 @@ import Footer from './components/Footer/Footer';
 import Contacts from './components/contacts/Contacts';
 import Clouds from './components/Clouds';
 
-
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,7 @@ function App() {
       <Slider imgSrc=
       {images} 
       title={'My Name is Jack kinyanjui'}
-      subtitle={'I am a Junior Developer'}
+      subtitle={'I am a web Developer'}
       />
       <Slider title={'My Tecnologies and Skills'}  flipped={true}/>
       <Footer sided={true}/>
