@@ -1,4 +1,3 @@
-import './App.css';
 import images from './assets/images.jpeg'
 import me from './assets/me.png'
 import Hero from './components/Hero/Hero';
@@ -7,14 +6,15 @@ import Slider from './components/slider/Slider';
 import {navbarLinks} from './components/navbar/Navbar'
 import Footer from './components/Footer/Footer';
 import Contacts from './components/contacts/Contacts';
+import Clouds from './components/Clouds';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar navbarLinks={navbarLinks}/>
-      <Hero imageSrc={me}/> 
-      <h1>hello</h1>
-      <div className='cloud-one'>hh</div>
+      <Hero imageSrc={me}/>
+      <Clouds/> 
       <Slider imgSrc=
       {images} 
       title={'My Name is Jack kinyanjui'}
