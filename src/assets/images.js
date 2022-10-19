@@ -13,7 +13,8 @@ import twitter_logo from './twitter.png'
 import linkedin_logo from './linkedin.png'
 import github_logo  from './github.png'
 import nodejs_logo from './nodejs.png'
-
+import typescript from './typescript.png'
+import redux from './redux.png'
 
 export const pictures = [
     {
@@ -31,7 +32,9 @@ export const pictures = [
         twitter_logo:twitter_logo,
         linkedin_logo:linkedin_logo,
         github_logo:github_logo,
-        nodejs_logo:nodejs_logo
+        nodejs_logo:nodejs_logo,
+        types_logo:typescript,
+        redux:redux
 
     }
 ]

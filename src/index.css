@@ -1,13 +1,22 @@
 body {
   margin: 0;
   font-family: 'Noto Sans Mono', monospace;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5px;
-    padding: 20px;
-    margin-bottom: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  padding: 20px;
+  margin-bottom: 50px;
+  background-color: #333;
+  color: #fff;
 }
+
 
 h1,h2,h3{
   font-weight: normal;
+}
+
+.cloud{
+  position: absolute;
+  left: 0;
+  background:black ;
 }
