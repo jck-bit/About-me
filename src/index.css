@@ -1,29 +1,28 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
 body {
-  font-family: 'Noto Sans Mono', monospace;
+  font-family: "Noto Sans Mono", monospace;
   width: 80%;
   margin-left: 10%;
   margin-top: 5px;
   padding: 20px;
   margin-bottom: 50px;
-  background-color:  #333;
+  background-color: #333;
   /* background-image: url('./img/clouds.jpg'); */
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
 }
 
-
-h1,h2,h3{
+h1,
+h2,
+h3 {
   font-weight: normal;
 }
-
 
 .background-wrap {
   bottom: 0;
@@ -33,7 +32,7 @@ h1,h2,h3{
   right: 0;
   top: 30;
   z-index: -1;
-  animation:animateCloud 10s linear infinite;
+  animation: animateCloud 10s linear infinite;
 }
 
 @keyframes animateCloud {
@@ -44,7 +43,6 @@ h1,h2,h3{
     margin-left: 100%;
   }
 }
-
 
 x1 {
   animation: animateCloud 35s linear infinite;

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     margin: 20px;
+    margin-right: -100%;
 
 
     opacity: 0;
@@ -13,6 +14,7 @@
    opacity: 1;
    transform: scale(100%);
    transition: 1s; 
+   margin-right: 0;
 }
 
 .slider_img{
