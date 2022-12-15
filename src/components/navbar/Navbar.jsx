@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import {FiX ,FiMenu} from 'react-icons/fi'
+
 
  export const navbarLinks = [
 
